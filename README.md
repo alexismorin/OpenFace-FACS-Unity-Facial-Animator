@@ -22,9 +22,9 @@ This repository uses a modified version of the FACSvatar framework built by [Ste
 4. Open the Unity project, navigate to the Asset Store and install **JSON .NET for Unity (by PARENTELEMENT, LLC)**.
 
 5. **If you're using Windows Home (7/8/10)**
-    * Navigate inside folder `openface_x.x.x_zeromq`
-    * (Windows 7/8/10 Home - only) Get Docker machine ip by opening a 2nd terminal and execute: `docker-machine ip` (likely to be 192.168.99.100)
-    * (Windows 7/8/10 Home - only) Open `config.xml`, change `<IP>127.0.0.1</IP>` to `<IP>machine ip from step 3</IP>` (`<IP>192.168.99.100</IP>`) and save and close.
+    * Navigate inside the OpenFace folder you downloaded
+    * (Windows 7/8/10 Home - only) Get your Docker machine ip by opening a 2nd terminal and running: `docker-machine ip` (likely to be 192.168.99.100)
+    * (Windows 7/8/10 Home - only) Open `config.xml`, change `<IP>127.0.0.1</IP>` to `<IP>machine ip from step 3</IP>` (`<IP>192.168.99.100</IP>`), save and close.
 
 
 
