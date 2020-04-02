@@ -3,7 +3,7 @@
 
 ### About
 
-This is an mostly-easy-to-use, mostly-standalone facial animation tool for Unity. Allowing the user to stream live OpenFace data to Unity as FACS (Facial Action Coding System) values, anyone can simply hook this simple tool up to their facial rig inside of Unity and animate facial blendshapes with it. The [Facial Action Coding System (FACS)](https://en.wikipedia.org/wiki/Facial_Action_Coding_System "https://en.wikipedia.org/wiki/Facial_Action_Coding_System") by Paul Ekman describes facial expressions in terms of muscle groups, called Action Units (AUs). By sending these AUs from OpenFace to Unity a value between 0-1, we can translate this contraction & relaxation of facial muscles as blendshape-friendly data!
+This is a mostly-easy-to-use, mostly-standalone facial animation tool for Unity. Allowing the user to stream live OpenFace data to Unity as FACS (Facial Action Coding System) values, anyone can simply hook this simple tool up to their facial rig inside of Unity and animate facial blendshapes with it. The [Facial Action Coding System (FACS)](https://en.wikipedia.org/wiki/Facial_Action_Coding_System "https://en.wikipedia.org/wiki/Facial_Action_Coding_System") by Paul Ekman describes facial expressions in terms of muscle groups, called Action Units (AUs). By sending these AUs from OpenFace to Unity a value between 0-1, we can translate this contraction & relaxation of facial muscles as blendshape-friendly data!
 
 This repository uses a modified version of the FACSvatar framework built by [Stef van der Struijk, Hung-Hsuan Huang, Maryam Sadat Mirzaei and Toyoaki Nishida](https://github.com/NumesSanguis/FACSvatar) and uses [ZeroMQ ](http://zeromq.org/) to stream data from OpenFace to Unity.
 
